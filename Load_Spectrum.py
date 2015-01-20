@@ -9,7 +9,7 @@ gROOT.Reset()
 ROOT.gROOT.SetStyle('Plain')
 ROOT.gStyle.SetFillColor(0)
 
-def Load_Spectrum(filename):
+def Load_Spectrum(filename, histname):
 	f = open(filename)
 	workline = ""
 	norm = 0
@@ -32,7 +32,8 @@ def Load_Spectrum(filename):
 			record = False    
 			print "Data feed end"
 		if str(line).startswith('MCAC'):
-			chan=str(line)[5:8]
+			chan=line[5:8]
+			print chan
 		if record == True:
 			data.append(int(line))
 		if str(line) == "<<DATA>>\n":
@@ -41,7 +42,7 @@ def Load_Spectrum(filename):
 	for i in xrange(len(data)):
 		data[i]=data[i]/float(norm)
 	
-	spect = ROOT.TH1F("spect", f.name, chan, 0, chan)
+	spect = ROOT.TH1F("spect", histname, int(chan), 0, float(chan))
 	i = 1
 	for d in data:
 		spect.Fill(i, d)
