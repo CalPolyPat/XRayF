@@ -1,0 +1,576 @@
+<<PMCA SPECTRUM>>
+TAG - live_data
+DESCRIPTION - 
+GAIN - 1
+THRESHOLD - 0
+LIVE_MODE - 0
+PRESET_TIME - 0
+LIVE_TIME - 1994.569000
+REAL_TIME - 2050.302000
+START_TIME - 02/12/2014 15:24:26
+SERIAL_NUMBER - 0
+<<ROI>>
+57 62
+57 62
+62 65
+77 85
+86 93
+209 220
+221 229
+<<DATA>>
+0
+0
+0
+0
+81
+108
+53
+38
+42
+40
+43
+59
+58
+92
+109
+150
+183
+307
+354
+488
+566
+707
+807
+924
+986
+1053
+1113
+1150
+1137
+1154
+1174
+1188
+1204
+1271
+1229
+1257
+1273
+1281
+1276
+1245
+1252
+1207
+1283
+1309
+1240
+1275
+1369
+1433
+1367
+1251
+1185
+1314
+1235
+1242
+1272
+1240
+1361
+1398
+1774
+1994
+1917
+1654
+1480
+1560
+1898
+1352
+1464
+1523
+1617
+1605
+1557
+1593
+1653
+2080
+3056
+3574
+3485
+3469
+5508
+24290
+103973
+221878
+216481
+95106
+21056
+4316
+2622
+4370
+13563
+31236
+37357
+21323
+6546
+1705
+1409
+1610
+1302
+850
+625
+581
+562
+692
+747
+736
+650
+681
+580
+541
+491
+503
+512
+417
+437
+446
+395
+402
+370
+378
+353
+362
+391
+332
+361
+350
+360
+529
+570
+348
+289
+321
+288
+319
+333
+312
+354
+314
+311
+271
+293
+294
+313
+303
+300
+313
+308
+324
+321
+334
+315
+347
+355
+350
+369
+382
+400
+415
+398
+418
+449
+487
+575
+644
+640
+521
+348
+214
+200
+233
+267
+282
+305
+254
+216
+149
+150
+160
+223
+279
+262
+178
+117
+79
+75
+79
+66
+78
+90
+89
+85
+123
+90
+94
+132
+84
+84
+72
+88
+76
+105
+100
+121
+117
+128
+127
+127
+150
+155
+155
+155
+138
+191
+214
+260
+327
+352
+342
+337
+321
+214
+193
+148
+149
+168
+292
+438
+562
+427
+322
+181
+116
+89
+71
+61
+50
+71
+41
+54
+61
+66
+56
+51
+67
+71
+64
+63
+53
+59
+74
+86
+85
+78
+113
+97
+346
+118
+75
+83
+60
+64
+68
+64
+80
+117
+173
+159
+129
+66
+67
+66
+67
+73
+76
+70
+58
+64
+30
+43
+46
+77
+87
+100
+100
+84
+48
+44
+42
+32
+27
+34
+27
+31
+33
+27
+37
+35
+35
+22
+42
+33
+41
+32
+49
+47
+44
+51
+54
+57
+54
+58
+76
+80
+69
+71
+81
+95
+107
+95
+96
+101
+85
+85
+92
+71
+30
+44
+19
+20
+32
+24
+25
+38
+59
+69
+99
+119
+90
+53
+44
+29
+16
+27
+36
+34
+43
+41
+42
+42
+52
+49
+36
+35
+29
+18
+20
+25
+20
+24
+26
+22
+32
+33
+48
+24
+22
+21
+23
+16
+19
+26
+22
+24
+20
+22
+19
+15
+16
+29
+22
+25
+22
+34
+97
+134
+48834
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+30
+37
+0
+0
+<<END>>
+<<DP5 CONFIGURATION>>
+RESC=?;    Reset Configuration
+PURE=OFF;    PUR Interval On/Off
+MCAS=NORM;    MCA Source
+MCAC=512;    MCA/MCS Channels
+SOFF=OFF;    Set Spectrum Offset
+GAIA=2;    Analog Gain Index
+PDMD=NORM;    Peak Detect Mode (Min/Max)
+THSL=0.781;    Slow Threshold
+TLLD=OFF;    LLD Threshold
+GATE=OFF;    Gate Control
+AUO1=PEAKH;    AUX_OUT Selection
+PRET=??;    Preset Time
+PRER=OFF;    Preset Real Time
+PREL=OFF;    Preset Live Time
+PREC=OFF;    Preset Counts
+PRCL=0;    Preset Counts Low Threshold
+PRCH=8191;    Preset Counts High Threshold
+SCOE=FA;    Scope Trigger Edge
+SCOT=50;    Scope Trigger Position
+SCOG=1;    Digital Scope Gain
+MCSL=0;    MCS Low Threshold
+MCSH=8191;    MCS High Threshold
+MCST=4.00;    MCS Timebase
+AUO2=ICR;    AUX_OUT2 Selection
+GPED=RI;    G.P. Counter Edge
+GPIN=AUX2;    G.P. Counter Input
+GPME=ON;    G.P. Counter Uses MCA_EN?
+GPGA=ON;    G.P. Counter Uses GATE?
+GPMC=ON;    G.P. Counter Cleared With MCA Counters?
+MCAE=OFF;    MCA/MCS Enable
+PDMD=NORM;
+<<DP5 CONFIGURATION END>>
+<<DPP STATUS>>
+Device Type: MCA8000D
+Serial Number: 368
+Firmware: 6.07  Build:  2
+FPGA: 1.06
+Slow Count: 1002302
+Real Time: 2050.302000
+Live Time: 1994.569000
+Board Temp: 40°C
+<<DPP STATUS END>>
